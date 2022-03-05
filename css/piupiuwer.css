@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    text-rendering: optimizeLegibility !important;
+    background-color: rgba(248, 244, 244, 1);
+}
+
+.iconify{
+    color: rgba(0, 0, 0, 0.5);
+    height: 32px;
+    width: 32px;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerEsquerda{
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.barraPesquisar{
+    width: 324px;
+    height: 56px;
+    margin-left: 16px;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(248, 244, 244, 1);
+    border-radius: 40px;
+    
+}
+
+.pesquisar{
+    color:rgba(0, 0, 0, 0.5);
+    border-color: rgba(248, 244, 244, 1);
+    background-color: rgba(248, 244, 244, 1);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.headerMeio{
+    display: flex;
+    align-items: center;
+    margin: 0px 64px 0px;
+    padding: 0px 64px;
+}
+
+.icones{
+    margin: 0px 32px;
+}
+
+.headerDireita{
+    display: flex;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+.username{
+    height: 32px;
+    width: 104px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px 24px 0px 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
