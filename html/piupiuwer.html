@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiuPiuwer</title>
+    <link rel="stylesheet" href="piupiuwer.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="headerEsquerda">
+            <button><span class="iconify" id="logo" data-icon="noto:front-facing-baby-chick" style="color: black;height: 40px;width: 36px;"></span></button>    
+            <input class="pesquisar" id="pesquisar" type="text" placeholder="Pesquisar">
+        </div>
+        <div class="headerMeio">
+            <button class="icones"><span class="iconify" data-icon="ph:house" style="color: rgba(0, 0, 0, 0.5);"></span></button>
+            <button class="icones"><span class="iconify" data-icon="bi:person-plus" style="color: rgba(0, 0, 0, 0.5);"></span></button>
+            <button class="icones"><span class="iconify" data-icon="jam:messages-alt" style="color: rgba(0, 0, 0, 0.5);"></span></button>
+            <button class="icones"><span class="iconify" data-icon="akar-icons:star" style="color: rgba(0, 0, 0, 0.5);"></span></button>
+            <button class="icones"><span class="iconify" data-icon="clarity:heart-line" style="color: rgba(0, 0, 0, 0.5);"></span></button>
+        </div>
+        <div class="headerDireita">
+            <button><span class="iconify" id="profilePicture" data-icon="iconoir:profile-circled" style="color: rgba(0, 0, 0, 0.5);height: 40px;width: 40px;"></span></button>
+            <button class = "username" id="nomeUsuario">Mateujin</button>
+            <button><span class="iconify" data-icon="charm:menu-hamburger" style="color: rgba(0, 0, 0, 0.5);"></span></button>
+        </div>        
+    </div>
+    <div class="parteInferior">
+        <div class="parteEsquerda">
+            <div class="explorar">   
+                <div class="aviao"><span class="iconify" data-icon="fa-regular:paper-plane" style="color: rgba(58, 57, 148, 1);"></span></div>
+                <div class="plvLateral">Explorar</div>
+            </div>
+                
+            <button class="opcaoExplorar"> Dança</button>
+        </div>
+        <div class="parteMeio">
+            <div class="abaDefazerPiu">
+                <div class="topoFazerPiu">
+                    <span class="iconify" id="profilePicture" data-icon="iconoir:profile-circled" style="color: rgba(0, 0, 0, 0.5);height: 56px;width: 56px;"></span>
+                    <input class="fazerPiu" id="fazerPiu" type="text" placeholder="No que você está pensando?"/>
+                </div>
+                <div class="opcoesDePiu">
+                    <div class="reparticaoOpcoes">
+                        <div class="iconOpcoes"><span class="iconify" data-icon="ep:picture" style="color: black;"></span></div>
+                        <button class="plvOpcoes">Imagem</button> 
+                    </div>
+                    <div class="reparticaoOpcoes">
+                        <div class="iconOpcoes"><span class="iconify" data-icon="akar-icons:video" style="color: black;"></span></div>
+                        <button class="plvOpcoes">Vídeo</button> 
+                    </div>   
+                    <div class="reparticaoOpcoes">
+                        <div class="iconOpcoes"><span class="iconify" data-icon="fluent:emoji-32-regular" style="color: black;"></span></div>
+                        <button class="plvOpcoes">Sentimento</button>
+                    </div>  
+                    <button class="buttonPiu" id="buttonPiu">Piu</button>   
+                </div>
+            </div>
+        </div>
+        <div class="parteDireita">
+            <div class="abaDoMundo">
+                <span class="iconify" data-icon="fontisto:world-o" style="color: rgba(57, 132, 87, 1);"></span>
+                <div class="plvLateral">O que está acontecendo?</div>
+            </div>
+            <button class="noticias" id="noticias">
+                <div class="CanalNoticia">Jornalzin</div>
+                <div class="textoNoticia">Rússia ataca Ucrânia e deixa centenas de vítimas.</div>
+            </button>
+        </div>
+</body>
+</html>
